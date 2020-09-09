@@ -48,7 +48,7 @@ platform :ios do
       xcodeproj: ENV["PROJECT_PATH"],
       profile: "ios-build.mobileprovision",
       code_signing_identity: ENV["CODE_SIGNING_IDENTITY"],
-      target_filter: "*Unity-iPhone*"
+      target_filter: "Unity-iPhone"
     )
     update_project_team(
       path: ENV["PROJECT_PATH"],
